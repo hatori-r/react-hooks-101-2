@@ -44,7 +44,7 @@ const App = () => {
         <button onClick={doubledNumber}>*2</button>
         <button onClick={divide3}>3の倍数のときだけ3で割る</button>
       </div>
-      <a href="https://github.com/hatori-r">hatori-r by github</a>
+      <a href="https://github.com/hatori-r" target="_blank" rel="noopener">hatori-r by github</a>
     </>
   );
 }
