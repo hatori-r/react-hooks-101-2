@@ -5,8 +5,16 @@ const App = props => {
   const { name, price } = state
 
   useEffect(() => {
-    console.log("useEffect is invoked.")
+    console.log("This is like componentDidMount or componentDidUpdate.")
   })
+
+  useEffect(() => {
+    console.log("This is like componentDidMount.")
+  }, [])
+
+  useEffect(() => {
+    console.log("This callback is for name only.")
+  }, [name])
 
   return (
     <>
